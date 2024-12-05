@@ -1,0 +1,74 @@
+/*
+** Copyright (C) 2001-2024 initMAX s.r.o.
+**
+** This program is free software: you can redistribute it and/or modify it under the terms of
+** the GNU Affero General Public License as published by the Free Software Foundation, version 3.
+**
+** This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+** without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+** See the GNU Affero General Public License for more details.
+**
+** You should have received a copy of the GNU Affero General Public License along with this program.
+** If not, see <https://www.gnu.org/licenses/>.
+**/
+
+
+body output.motd-box::before {
+    content: "\ea30";
+}
+
+body output.motd-box .msg-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.motd-box .msg-details .list-dashed {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.motd-box .msg-details .list-dashed::before {
+    content: '';
+    background: url('../img/initmax-free.svg');
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    height: 1.5rem;
+    width: 7rem;
+    margin-left: 0.5rem;
+}
+
+.motd-box .motd-box-details > span {
+    margin-right: 0.25rem;
+}
+
+.motd-box .motd-box-details > * {
+    margin-right: 2rem;
+}
+
+output.motd-box {
+    border-color: var(--motd-color-primary, #dc3838);
+
+    .motd-box-details span {
+        color: var(--motd-color-primary, #dc3838);
+    }
+}
+
+.header-title {
+    gap: 1rem;
+}
+
+body:has(#motd-list-page) .header-title::before {
+    content: '';
+    background: url('../img/initmax-free.svg');
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    height: 1.5rem;
+    width: 7rem;
+    margin-left: 0.5rem;
+}

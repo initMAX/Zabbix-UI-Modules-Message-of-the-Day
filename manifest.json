@@ -1,0 +1,46 @@
+{
+	"manifest_version": 2.0,
+	"id": "motd",
+	"type": "module",
+	"name": "Message of the Day",
+	"namespace": "Motd",
+	"version": "2.0",
+	"author": "initMAX s.r.o.",
+	"url": "https://www.initmax.com",
+	"description": "Zabbix frontend module notifies users and administrators about important actions, events and updates in the environment. (FREE version)",
+	"actions": {
+		"module.motd.list": {
+			"class": "MotdList",
+			"view": "motd.list",
+			"layout": "layout.htmlpage"
+		},
+		"motd.form.edit": {
+			"class": "MotdForm",
+			"view": "motd.form",
+			"layout": "layout.json"
+		},
+		"motd.form.submit": {
+			"class": "MotdFormSubmit",
+			"layout": "layout.json"
+		},
+		"motd.form.enable": {
+			"class": "MotdFormStatus",
+			"layout": "layout.json"
+		},
+		"motd.form.disable": {
+			"class": "MotdFormStatus",
+			"layout": "layout.json"
+		},
+		"motd.form.delete": {
+			"class": "MotdFormDelete",
+			"layout": "layout.json"
+		}
+	},
+	"storage": {
+		"class": "ConfigStorage"
+	},
+	"assets": {
+		"js": ["motd.js", "motd.form.js"],
+		"css": ["motd.css", "motd.form.css"]
+	}
+}
