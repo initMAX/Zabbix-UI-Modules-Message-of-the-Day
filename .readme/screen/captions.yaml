@@ -1,0 +1,9 @@
+01-overview.png:
+  en: "A scheduled announcement is displayed prominently inside Zabbix so important information reaches active users."
+  cs: "Naplánované oznámení se výrazně zobrazí přímo v Zabbixu, takže se dostane k aktivním uživatelům."
+02-message-list.png:
+  en: "Administrators can review active, upcoming and past messages together with their display schedule."
+  cs: "Správci vidí aktivní, budoucí i minulé zprávy společně s jejich plánem zobrazení."
+06-settings.png:
+  en: "Create the message, choose its visual priority and control exactly when it becomes visible."
+  cs: "Vytvořte zprávu, zvolte její vizuální prioritu a přesně určete dobu zobrazení."
