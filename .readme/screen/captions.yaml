@@ -1,0 +1,15 @@
+01-overview.png:
+  en: "A scheduled announcement is displayed prominently inside Zabbix so important information reaches active users."
+  cs: "Naplánované oznámení se výrazně zobrazí přímo v Zabbixu, takže se dostane k aktivním uživatelům."
+02-message-list.png:
+  en: "Administrators can review active, upcoming and past messages together with their display schedule."
+  cs: "Správci vidí aktivní, budoucí i minulé zprávy společně s jejich plánem zobrazení."
+03-repeat.png:
+  en: "A repeating message: set the interval and when the repetition ends, and the announcement comes back on its own."
+  cs: "Opakovaná zpráva: nastavte interval a konec opakování a oznámení se vrátí samo."
+04-html.png:
+  en: "With HTML tags allowed, a message can carry a link straight to the runbook."
+  cs: "Se zapnutými HTML tagy může zpráva nést odkaz rovnou na runbook."
+06-settings.png:
+  en: "Create the message, choose its visual priority and control exactly when it becomes visible."
+  cs: "Vytvořte zprávu, zvolte její vizuální prioritu a přesně určete dobu zobrazení."
